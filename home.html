@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+  		<title>Black & White</title>
+		<link href="sources/main.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>		
+		<title>Belize</title>
+	</head>
+	</body>
+		<header id="topLeft"><!--semantic element-->
+            <img id="logo" src="sources/imgs/BWrLogo.png">
+		</header>
+        <header id="topRight"><!--semantic element-->
+			<iframe id="BWheader" allowTransparency="true" scrolling="no" frameborder="0" src="sources/header/header.html" frameborder="0"></iframe>
+        </header>
+        <nav id="sBar"><!--semantic element-->
+			<form role="search" id="sForm">
+            <input type="search" id="searchBar" name="q" placeholder="google..."></textarea>&nbsp;<button id="sBtn">GO</button>
+			</form>
+			<script type="text/javascript" src="sources/sBar.js"></script> 
+         </nav>   
+		<nav id="mainNav"><!--semantic element-->
+			<a href="home.html"><button class="mainNav">Main Page</button></a>&nbsp;&nbsp;&nbsp;<a href="mexico.html"><button class="mainNav">Page 2</button></a>&nbsp;&nbsp;&nbsp;<a href="usa.html"><button class="mainNav">Page 3</button></a>&nbsp;&nbsp;&nbsp;<a href="canada.html"><button class="mainNav">Page 4</button></a>&nbsp;&nbsp;&nbsp;<a href="japan.html"><button class="mainNav">Page 5</button></a><!--<br />-->
+		</nav>
+		<nav id="inPageNav"><!--semantic element-->	
+			<!--<h5>-->
+			<a href="#countryFlag"><button class="inPageButton" onclick="snake()">Snake</button></a><br /><br />
+			<a href="#background"><button class="inPageButton" onclick="tickTackToe()">Tick Tack Toe</button></a><br /><br />
+			<a href="#background"><button class="inPageButton">Game 3</button></a><br /><br />
+			<a href="#flagDescription"><button class="inPageButton">Game 4</button></a><br /><br />
+			<a href="#nationalHeritage"><button class="inPageButton">Game 5</button></a><br /><br />
+			<!--</h5>-->
+		</nav>
+		
+		<main>
+			<iframe id="primaryFrame" allowTransparency="true" scrolling="yes" src="sources/pages/welcome.html" frameborder="0"></iframe>
+			<script type="text/javascript" src="sources/primaryFrame.js"></script> 
+		</main>
+        <bfooter><h6 id="blankF"></h6></bfooter>
+		<footer><h6 id="hFooter">Design by: Angel Ochoa</h6></footer>
+	</body>
+</html>
