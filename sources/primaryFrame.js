@@ -24,3 +24,7 @@ function refrb()
 {
 iframe.src = "sources/pages/references.html";
 }
+function gamesp()
+{
+iframe.src = "sources/pages/games.html";
+}
