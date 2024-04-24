@@ -1,10 +1,13 @@
-/*THEME*/
 body
 { 
     height: 100vh;
     margin: 0px;
     color: #e1e2e4;
     background: transparent;
+}
+h3
+{
+    text-align: center;
 }
 
 /*scrollbar*/
@@ -26,4 +29,17 @@ body
 ::-webkit-scrollbar-thumb:hover 
 {
     background: #555;
+}
+
+a
+{
+    color:#02ff02
+}
+a:visited
+{
+    color: #02ff02;
+}
+a:hover
+{
+    color: #e1e2e4;
 }
