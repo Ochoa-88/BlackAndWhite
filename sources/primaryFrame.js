@@ -15,6 +15,10 @@ function memoryG()
 {
 iframe.src = "sources/games/dinosaurMemoryGame/dist/index.html";
 }
+function oregon()
+{
+iframe.src = "sources/games/oregonTrail/dist/index.html";
+}
 
 function refrb()
 {
