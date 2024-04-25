@@ -28,3 +28,11 @@ function gamesp()
 {
 iframe.src = "sources/pages/games.html";
 }
+function underCons()
+{
+iframe.src = "sources/pages/underConst.html";
+}
+function rickRolled()
+{
+iframe.src = "sources/pages/NGGYU.html";
+}

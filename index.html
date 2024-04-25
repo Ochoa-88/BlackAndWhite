@@ -3,41 +3,45 @@
 	<head>
 		<meta charset="UTF-8">
   		<title>Black & White</title>
+		<link rel="icon" type="image/x-icon" href="/sources/imgs/bwrlogo_B54_icon.ico"> <!--icon to show on tab of browsers-->
 		<link href="sources/main.css" rel="stylesheet" type="text/css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>		
 		<title>Belize</title>
 	</head>
 	</body>
-		<header id="topLeft"><!--semantic element-->
+		<header id="topLeft">
             <img id="logo" src="sources/imgs/BWrLogo.png">
 		</header>
-        <header id="topRight"><!--semantic element-->
+        <header id="topRight">
 			<iframe id="BWheader" allowTransparency="true" scrolling="no" frameborder="0" src="sources/header/header.html" frameborder="0"></iframe>
         </header>
-        <nav id="sBar"><!--semantic element-->
+        <nav id="sBar">
 			<form role="search" id="sForm">
             <input type="search" id="searchBar" name="q" placeholder="google..."></textarea>&nbsp;<button id="sBtn">GO</button>
 			</form>
 			<script type="text/javascript" src="sources/sBar.js"></script> 
          </nav>   
-		<nav id="mainNav"><!--semantic element-->
-			<a href="index.html"><button class="mainNav">Main Page</button></a>&nbsp;&nbsp;&nbsp;<button class="mainNav" onclick="gamesp()">Games</button>&nbsp;&nbsp;&nbsp;<a href="usa.html"><button class="mainNav">Page 3</button></a>&nbsp;&nbsp;&nbsp;<a href="canada.html"><button class="mainNav">Page 4</button></a>&nbsp;&nbsp;&nbsp;<button class="mainNav" onclick="refrb()">References</button>
+		<nav id="mainNav">
+			<a href="index.html"><button class="mainNav">Main Page</button></a>&nbsp;&nbsp;&nbsp; 
+			<button class="mainNav" onclick="gamesp()">Games</button>&nbsp;&nbsp;&nbsp;
+			<button class="mainNav" onclick="underCons()">Unfinished</button>&nbsp;&nbsp;&nbsp;
+			<button class="mainNav" onclick="rickRolled()">DO NOT CLICK</button>&nbsp;&nbsp;&nbsp;
+			<button class="mainNav" onclick="refrb()">References</button>
 		</nav>
-		<nav id="inPageNav"><!--semantic element-->	
-			<!--<h5>-->
+		<nav id="inPageNav">
 			<button class="inPageButton" onclick="snake()">Snake</button><br /><br />
 			<button class="inPageButton" onclick="ticTacToe()">Tic Tac Toe</button><br /><br />
 			<button class="inPageButton" onclick="pongG()">Pong</button><br /><br />
 			<button class="inPageButton" onclick="memoryG()">Memory</button><br /><br />
 			<button class="inPageButton" onclick="oregon()">Oregon Trail</button><br /><br />
-			<!--</h5>-->
 		</nav>
 		
 		<main>
-			<iframe id="primaryFrame" allowTransparency="true" scrolling="yes" src="sources/pages/welcome.html" frameborder="0"></iframe>
+			<iframe id="primaryFrame" allowTransparency="true" scrolling="yes" src="sources/pages/mainPage.html" frameborder="0"></iframe>
 			<script type="text/javascript" src="sources/primaryFrame.js"></script> 
 		</main>
-        <bfooter><h6 id="blankF"></h6></bfooter>
+
+        <bfooter><h6 id="blankF"></h6></bfooter> <!--blank square on column 1 row 4-->
 		<footer><h6 id="hFooter">Design by: Angel Ochoa</h6></footer>
 	</body>
 </html>
