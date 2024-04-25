@@ -22,7 +22,7 @@ iframe.src = "sources/games/oregonTrail/dist/index.html";
 
 function refrb()
 {
-iframe.src = "sources/pages/references.html";
+iframe.src = "sources/pages/References.html";
 }
 function gamesp()
 {
